@@ -1,4 +1,4 @@
-
+import React from 'react';
 import './App.css';
 import Navigation from "../src/Navigations";
 function App() {

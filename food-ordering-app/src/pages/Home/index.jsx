@@ -1,10 +1,13 @@
-import Banner from "../../Component/Banner";
-import About from "../../Component/about";
+import React from 'react';
+import Banner from "../../components/Banner";
+import About from "../../components/About";
+import ProductsPreview from "../../components/ProductsPreview";
 const Home = () =>{
     return(
         <>
          <Banner/>
          <About/>
+         <ProductsPreview/>
         </>
     
     )
